@@ -1,81 +1,202 @@
-*{
-box-sizing: border-box;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     margin: 0;
     background-color: #151B28;
     display: flex;
     justify-content: center;
-    max-width: 1440
-   
+
+
 }
-.container{
-  background-color: #151B28;
+
+.tana {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
-header .container{
-     padding: 10px 20px;
-     display: flex;
-     
+
+.container {
+    background-color: #151B28;
+    flex-direction: column;
+    display: flex;
+
+
 }
-header{
+
+header .container {
+    padding: 10px 20px;
+
+
+}
+
+header {
     display: flex;
     flex-direction: column;
     max-width: 1120px;
+    justify-content: center;
 
 }
-.head1{
+
+.head1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     gap: 315px;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.startNov{
+
+.startNov {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
-.chiziq{
+
+.chiziq {
     width: 2px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.3);
 }
-#language{
+
+#language {
     background-color: transparent;
     color: rgb(255, 255, 255);
     padding: 8px 20px;
     font-size: 30px;
     font-weight: bold;
     border: 0px solid chartreuse;
-    
 
-   
+
+
 }
-#language:focus{
+
+#language:focus {
     border: 0px solid cyan;
     color: #151B28;
 }
-.start{
+
+.start {
     padding: 10px 20px;
     border-radius: 12px;
     background-color: #FF8400;
     border: none;
 }
-.head2-nav{
-   
-font-weight: 400;
 
-font-size: 22px;
-margin: 0px 10px;
-text-align: center;
-text-transform:uppercase;
-color: #FCFCFD;
-text-decoration: none;
+.head2-nav {
 
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCFCFD;
+    text-decoration: none;
+
+}
+
+.sec1 {
+    width: 1440px;
+    height: 900px;
+    background-image: url('./sherzodRasmlar/sec1rasm.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec1rasm {
+    max-width: 1440px;
+    height: 968px;
+
+}
+
+.seconerasm {
+    width: 100%;
+    height: 100%;
+
+}
+
+.textlar {
+    width: 550px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.yoq {
+    width: 550px;
+    height: 250px;
+}
+
+.narsala {
+    width: 1120px;
+    height: 338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.text h1 {
+
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FCFCFD;
+
+}
+
+.text p {
+
+    font-weight: 400;
+    color: #FCFCFD;
+    font-size: 17px;
+
+
+    text-transform: uppercase;
+
+}
+.buttonlar{
+    display: flex;
+    align-items: center;
+}
+.ranglibtn {
+    width: 255px;
+    height: 56px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #FF8400;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+
+}
+
+.rangsizbtn{
+    width: 300px;
+    height: 56px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+   background-color: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
