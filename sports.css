@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #151B28;
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.con {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .tana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.container {
+    background-color: #151B28;
+    flex-direction: column;
+    display: flex;
+}
+
+header .container {
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 315px;
+}
+
+.logo {
+    display: flex;
+}
+
+.startNov {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.chiziq {
+    width: 2px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#language {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px solid chartreuse;
+}
+
+#language:focus {
+    border: 0px solid cyan;
+    color: #151B28;
+}
+
+.start {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #FF8400;
+    border: none;
+}
+
+.head2-nav {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCFCFD;
+    text-decoration: none;
+}
+
+.sec-one {
+    background-image: url("./headerImg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 370px 370px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.secOne-title {
+    color: white;
+}
+
+.sec-two {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.secTwo-container {
+    max-width: 1200px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.left {
+    width: 600px;
+    padding: 50px;
+}
+
+.left span{
+    color: hsla(31, 100%, 50%, 1);  
+}
+
+.left h3{
+    font-size: 28px;
+    margin: 0;
+    padding: 6px 0px;
+}
+
+.right {
+    width: 500px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sec-three{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    padding: 100px 0px;
+}
+
+.sec-three h2{
+    font-size: 28px;
+}
+
+.sec-three .rasm-con{
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.rasm-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec-four {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sec-four img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    z-index: 1;
+}
+
+.sec-four h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 3em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 2; 
+    text-align: center; 
+}
