@@ -210,20 +210,20 @@ header {
     width: 1440px;
     height: 1100px;
     background-color: #151B28;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .pys {
-   
+
     width: 1120px;
     height: 874px;
     background-color: #151B28;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -296,21 +296,155 @@ header {
     text-transform: capitalize;
 
 }
-.card-tex p{
 
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-color: #fff;
+.card-tex p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
 
 }
-.starthere{
-width: 210px;
-height: 46px;
-padding: 12px 18px;
-border-radius: 4px;
-border: 2px solid #FF8400;
-color: #FF8400;
-background-color: transparent;
+
+.starthere {
+    width: 210px;
+    height: 46px;
+    padding: 12px 18px;
+    border-radius: 4px;
+    border: 2px solid #FF8400;
+    color: #FF8400;
+    background-color: transparent;
+}
+
+.sec3 {
+    width: 1440px;
+    height: 760px;
+    background-image: url('./sherzodRasmlar/sec3rasm.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sec3card {
+    color: white;
+    width: 752px;
+    height: 273px;
+    text-align: center;
+
+}
+
+.sec3card h1 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.sec3card p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.sec3rbtn {
+    width: 387px;
+    height: 56px;
+    padding: 12px 18px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color:#FF8400 ;
+    color: white;
+}
+
+.sec3rangsiz {
+    width: 130px;
+    height: 56px;
+    padding: 12px 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.sec3btnlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.sec4{
+width: 1440px;
+height: 1233px;
+padding: 120px 160px;
+background-color: #151B28;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+
+}
+.adds{
+    width: 750px;
+    height: 891px;
+  
+   margin: 0 auto;
+
+
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C2534;
+    margin: 20px 0px;
+    border-radius: 7px;
+    padding: 0px 10px;
+}
+.bosh{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.sec4 h1{
+font-weight: 400;
+font-size: 54px;
+text-align: center;
+text-transform: uppercase;
+color: white;
+
+}
+.sec4 h4{
+font-weight: 400;
+font-size: 22px;
+text-transform: uppercase;
+color: #fff;
+}
+.oxiri{
+    width: 30px;
+    height: 30px;
+    background-color: #FF8400;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.oxiri p{
+    font-weight: bold;
+    font-size: 20px;
 }
