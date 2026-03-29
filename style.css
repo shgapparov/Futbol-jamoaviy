@@ -8,8 +8,6 @@ body {
     background-color: #151B28;
     display: flex;
     justify-content: center;
-
-
 }
 
 .tana {
@@ -22,14 +20,10 @@ body {
     background-color: #151B28;
     flex-direction: column;
     display: flex;
-
-
 }
 
 header .container {
     padding: 10px 20px;
-
-
 }
 
 header {
@@ -73,9 +67,6 @@ header {
     font-size: 30px;
     font-weight: bold;
     border: 0px solid chartreuse;
-
-
-
 }
 
 #language:focus {
@@ -91,7 +82,6 @@ header {
 }
 
 .head2-nav {
-
     font-weight: 400;
     font-size: 22px;
     margin: 0px 10px;
@@ -99,27 +89,23 @@ header {
     text-transform: uppercase;
     color: #FCFCFD;
     text-decoration: none;
-
 }
 
 .sec1 {
     width: 1440px;
     height: 900px;
     background-image: url('./sherzodRasmlar/sec1rasm.png');
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .sec1rasm {
     max-width: 1440px;
     height: 968px;
-
 }
 
 .seconerasm {
@@ -136,7 +122,6 @@ header {
     flex-wrap: wrap;
 }
 
-
 .yoq {
     width: 550px;
     height: 250px;
@@ -148,27 +133,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .text h1 {
-
     font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
     color: #FCFCFD;
-
 }
 
 .text p {
-
     font-weight: 400;
     color: #FCFCFD;
     font-size: 14px;
-
-
     text-transform: uppercase;
 
 }
@@ -189,8 +166,6 @@ header {
     font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
-
-
 }
 
 .rangsizbtn {
@@ -213,18 +188,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .pys {
-
     width: 1120px;
     height: 874px;
     background-color: #151B28;
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .matnlar {
@@ -235,7 +207,6 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .matnlar h2 {
@@ -254,21 +225,17 @@ header {
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-
 }
 
 .card {
     width: 260px;
     height: 572px;
     padding: 60px 20px;
-
 }
 
 .card-img {
     width: 200px;
     height: 228px;
-
-
 }
 
 .imgcard {
@@ -294,17 +261,14 @@ header {
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-
 }
 
 .card-tex p {
-
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     text-align: center;
     color: #fff;
-
 }
 
 .starthere {
@@ -327,7 +291,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .sec3card {
@@ -335,7 +298,6 @@ header {
     width: 752px;
     height: 273px;
     text-align: center;
-
 }
 
 .sec3card h1 {
@@ -343,7 +305,6 @@ header {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .sec3card p {
@@ -351,7 +312,6 @@ header {
     font-style: Regular;
     font-size: 15px;
     text-align: center;
-
 }
 
 .sec3rbtn {
@@ -364,7 +324,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     border: none;
-    background-color:#FF8400 ;
+    background-color: #FF8400;
     color: white;
 }
 
@@ -381,33 +341,34 @@ header {
     text-transform: uppercase;
     color: white;
 }
-.sec3btnlar{
+
+.sec3btnlar {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     color: white;
 }
-.sec4{
-width: 1440px;
-height: 1233px;
-padding: 120px 160px;
-background-color: #151B28;
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
+
+.sec4 {
+    width: 1440px;
+    height: 1233px;
+    padding: 120px 160px;
+    background-color: #151B28;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
 }
-.adds{
+
+.adds {
     width: 750px;
     height: 891px;
-  
-   margin: 0 auto;
-
-
+    margin: 0 auto;
 }
-.add{
+
+.add {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -416,35 +377,376 @@ text-align: center;
     border-radius: 7px;
     padding: 0px 10px;
 }
-.bosh{
+
+.bosh {
     display: flex;
     gap: 25px;
     align-items: center;
 }
-.sec4 h1{
-font-weight: 400;
-font-size: 54px;
-text-align: center;
-text-transform: uppercase;
-color: white;
 
+.sec4 h1 {
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
-.sec4 h4{
-font-weight: 400;
-font-size: 22px;
-text-transform: uppercase;
-color: #fff;
+
+.sec4 h4 {
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
 }
-.oxiri{
+
+.oxiri {
     width: 30px;
     height: 30px;
     background-color: #FF8400;
     border-radius: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.oxiri p{
+
+.oxiri p {
     font-weight: bold;
     font-size: 20px;
+}
+
+.sec5 {
+    width: 1440px;
+    height: 798px;
+    padding: 100px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #151B28
+}
+
+.uchtalik {
+    width: 1120px;
+    height: 456px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.our11 {
+    width: 300px;
+    height: 350px;
+    padding: 32px;
+    background-image: url('./sherzodRasmlar/our1img.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.our22 {
+    width: 300px;
+    height: 350px;
+    padding: 32px;
+    background-image: url('./sherzodRasmlar/our2img.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.our33 {
+    width: 300px;
+    height: 350px;
+    padding: 32px;
+    background-image: url('./sherzodRasmlar/our3img.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.our1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    /* overlay ustida turadi */
+    color: white;
+
+}
+
+.our2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    /* overlay ustida turadi */
+    color: white;
+
+}
+
+.our3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    /* overlay ustida turadi */
+    color: white;
+
+}
+
+.our11::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    /* pastki 200px */
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9),
+            /* pastda qoraroq */
+            rgba(0, 0, 0, 0)
+            /* yuqoriga chiqib yo‘qoladi */
+        );
+    z-index: 1;
+}
+
+.our22::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    /* pastki 200px */
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9),
+            /* pastda qoraroq */
+            rgba(0, 0, 0, 0)
+            /* yuqoriga chiqib yo‘qoladi */
+        );
+    z-index: 1;
+}
+
+.our33::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    /* pastki 200px */
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9),
+            /* pastda qoraroq */
+            rgba(0, 0, 0, 0)
+            /* yuqoriga chiqib yo‘qoladi */
+        );
+    z-index: 1;
+}
+
+.sec5 h1 {
+    margin: 20px 90px;
+    font-weight: 400;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.uchtalik h2 {
+    margin-top: 200px;
+    font-weight: 600;
+    ;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FCFCFD;
+}
+
+.uchtalik button {
+    width: 240px;
+    height: 40px;
+    padding: 12px 18px;
+    border-radius: 4px;
+    border: 2px solid #FF8400;
+    background-color: transparent;
+    color: #FF8400;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.sec6 {
+    width: 1440px;
+    height: 1070px;
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec6 h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCFCFD;
+}
+
+.storis {
+    width: 1120px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.yozuvsiz {
+    width: 800px;
+    height: 640px;
+
+
+}
+
+.yozuvli {
+    width: 496px;
+    height: 455px;
+    padding: 44px;
+    border-radius: 2px;
+    background-color: #333B48;
+    position: absolute;
+    margin-right: 800px;
+}
+
+.yozuvsiz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yozuvli h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FF8400;
+}
+
+.yozuvli h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FCFCFD;
+}
+
+.yozuvli p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.sec7 {
+    width: 1440px;
+    height: 1156px;
+    padding-top: 120px;
+    padding-right: 160px;
+    padding-left: 160px;
+    background-color: #151B28;
+
+}
+
+.ourteam {
+    text-align: center;
+    width: 1120px;
+    height: 233px;
+}
+.ourteam h2{
+font-weight: 400;
+font-size: 44px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color: #FCFCFD;
+}
+.ourteam p{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+color: #FCFCFD;
+}
+.ourteam h5{
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: #FCFCFD;
+}
+.uchqard {
+    width: 1120px;
+    height: 739px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.imgcon {
+    width: 357px;
+    height: 739px;
+
+}
+
+.imgcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+ .sec8 {
+    width: 1440px;
+    height: 1156px;
+    padding-top: 120px;
+    padding-right: 160px;
+    padding-left: 160px;
+    background-image: url('./sherzodRasmlar/sec8img.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+   display: flex;
+   align-items: center;
+  
+} 
+.sec8 h1{
+font-weight: 700;
+font-size: 66px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FCFCFD;
 }
